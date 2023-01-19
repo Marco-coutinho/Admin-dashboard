@@ -109,7 +109,7 @@ const handleClose = () => setAnchorEl(null);
               />
               <Menu anchorEl={anchorEl} open={isOpen} onClose={handleClose} anchorOrigin={{ vertical: "bottom", horizontal: "center"}}
               >
-                <MenuItem onClick={handleClose}>Log  Out</MenuItem>
+                <MenuItem onClick={handleClose}>Log Out</MenuItem>
               </Menu>
               </Button>
             </FlexBetween>
